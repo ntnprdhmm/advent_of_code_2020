@@ -1,5 +1,5 @@
-mod report_repair;
-mod report_repair_2;
+mod day_1_1;
+mod day_1_2;
 mod day_2_1;
 mod day_2_2;
 
