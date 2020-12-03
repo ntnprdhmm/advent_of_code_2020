@@ -4,7 +4,7 @@ use std::io::prelude::*;
 use std::io::BufReader;
 
 fn read_entries() -> Vec<i32> {
-  let file = File::open("./inputs/report_repair.txt").unwrap();
+  let file = File::open("./inputs/day_1.txt").unwrap();
 
   let br = BufReader::new(file);
   let mut entries: Vec<i32> = Vec::new();
