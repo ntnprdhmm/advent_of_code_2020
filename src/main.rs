@@ -8,10 +8,12 @@ mod day_4_1;
 mod day_4_2;
 mod day_5_1;
 mod day_5_2;
+mod day_6_1;
+mod day_6_2;
 
-use crate::day_5_2::*;
+use crate::day_6_2::*;
 
 fn main() {
-    let result = binary_boarding();
+    let result = custom_customs();
     println!("{:}", result);
 }
