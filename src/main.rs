@@ -14,10 +14,12 @@ mod day_7_1;
 mod day_7_2;
 mod day_8_1;
 mod day_8_2;
+mod day_9_1;
+mod day_9_2;
 
-use crate::day_8_2::*;
+use crate::day_9_2::*;
 
 fn main() {
-    let result = handheld_halting();
+    let result = encoding_error();
     println!("{:}", result);
 }
