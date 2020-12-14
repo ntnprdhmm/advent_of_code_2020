@@ -18,10 +18,11 @@ mod day_9_1;
 mod day_9_2;
 mod day_10_1;
 mod day_10_2;
+mod day_11_1;
 
-use crate::day_10_2::*;
+use crate::day_11_1::*;
 
 fn main() {
-    let result = adapter_array();
+    let result = seating_system();
     println!("{:}", result);
 }
