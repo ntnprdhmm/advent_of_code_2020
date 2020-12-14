@@ -19,10 +19,13 @@ mod day_9_2;
 mod day_10_1;
 mod day_10_2;
 mod day_11_1;
+mod day_11_2;
+mod day_12_1;
+mod day_12_2;
 
-use crate::day_11_1::*;
+use crate::day_12_2::*;
 
 fn main() {
-    let result = seating_system();
+    let result = rain_risk();
     println!("{:}", result);
 }
