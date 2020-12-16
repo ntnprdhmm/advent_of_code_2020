@@ -1,3 +1,10 @@
+mod day_10_1;
+mod day_10_2;
+mod day_11_1;
+mod day_11_2;
+mod day_12_1;
+mod day_12_2;
+mod day_13_1;
 mod day_1_1;
 mod day_1_2;
 mod day_2_1;
@@ -16,16 +23,10 @@ mod day_8_1;
 mod day_8_2;
 mod day_9_1;
 mod day_9_2;
-mod day_10_1;
-mod day_10_2;
-mod day_11_1;
-mod day_11_2;
-mod day_12_1;
-mod day_12_2;
 
-use crate::day_12_2::*;
+use crate::day_13_1::*;
 
 fn main() {
-    let result = rain_risk();
+    let result = shuttle_search();
     println!("{:}", result);
 }
